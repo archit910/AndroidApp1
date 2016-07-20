@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bgtwo"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.archit.foodorderapp.OrderFood">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FastFood"
+        android:id="@+id/btnFF"
+        android:onClick="fastfood"
+        android:layout_marginTop="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NorthIndian"
+        android:id="@+id/btnNI"
+        android:onClick="north"
+        android:layout_below="@+id/btnFF"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SouthIndian"
+        android:onClick="south"
+        android:id="@+id/btnSI"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/btnNI"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
